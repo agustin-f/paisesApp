@@ -30,4 +30,9 @@ export class PorPaisComponent implements OnInit {
         this.paises = [];
       });
   }
+
+  sugerencias(termino:string){
+    this.hayError = false;
+    
+  }
 }
