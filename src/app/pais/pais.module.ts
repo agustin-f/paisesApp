@@ -7,10 +7,12 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { PaisTablaComponent } from './components/pais-tabla/pais-tabla.component';
 import { PaisInputComponent } from './components/pais-input/pais-input.component';
+import { PorCapitalComponent } from './pages/por-capital/por-capital.component';
 
 @NgModule({
   declarations: [
     PorPaisComponent,
+    PorCapitalComponent,
     PorRegionComponent,
     VerPaisComponent,
     PaisTablaComponent,
@@ -18,8 +20,11 @@ import { PaisInputComponent } from './components/pais-input/pais-input.component
   ],
   exports: [
     PorPaisComponent,
+    PorCapitalComponent,
     PorRegionComponent,
-    VerPaisComponent
+    VerPaisComponent,
+    PaisTablaComponent,
+    PaisInputComponent
   ],
   imports: [
     CommonModule,

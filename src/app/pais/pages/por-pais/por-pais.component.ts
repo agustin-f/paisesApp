@@ -9,7 +9,7 @@ import { Country } from '../../interfaces/pais.interface';
 })
 export class PorPaisComponent implements OnInit {
 
-  termino:string = 'Hola mundo';
+  termino:string = '';
   hayError:boolean = false;
   paises:Country[]=[];
 
