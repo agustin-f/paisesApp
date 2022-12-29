@@ -19,12 +19,10 @@ import { PorCapitalComponent } from './pages/por-capital/por-capital.component';
     PaisInputComponent
   ],
   exports: [
-    PorPaisComponent,
     PorCapitalComponent,
+    PorPaisComponent,
     PorRegionComponent,
-    VerPaisComponent,
-    PaisTablaComponent,
-    PaisInputComponent
+    VerPaisComponent
   ],
   imports: [
     CommonModule,
