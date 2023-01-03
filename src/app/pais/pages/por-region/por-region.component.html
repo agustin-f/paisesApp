@@ -12,8 +12,14 @@
                 'active':region === regionActiva
             }"
             (click)="activarRegion(region)">
-                {{region}}
+                {{region | titlecase}}
         </button>
+    </div>
+</div>
+
+<div class="row" *ngIf="paises.length > 0">
+    <div class="col">
+       <app-pais-tabla [paises]="paises"></app-pais-tabla>
     </div>
 </div>
 
