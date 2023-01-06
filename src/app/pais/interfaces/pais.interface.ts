@@ -1,4 +1,5 @@
 export interface Country {
+alpha2Code: any|string;
     name:         Name;
     tld:          string[];
     cca2:         string;
